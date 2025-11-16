@@ -15,7 +15,6 @@
 - [🗂 프로젝트 구조 (Structure)](#-프로젝트-구조-structure)
 - [🧱 학습 진행 상황 (Progress)](#-학습-진행-상황-progress)
 - [🧪 학습 방법 (How I Study)](#-학습-방법-how-i-study)
-- [📝 예시 정리 스타일 (Example Note Style)](#-예시-정리-스타일-example-note-style)
 - [▶️ 실행 방법 (Run)](#️-실행-방법-run)
 - [🎯 학습 확장 로드맵 (Next Steps)](#-학습-확장-로드맵-next-steps)
 - [💬 기록 및 메모](#-기록-및-메모)
