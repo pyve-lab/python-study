@@ -74,8 +74,11 @@ print(myvar); print(my_var); print(_my_var); print(myVar); print(MYVAR); print(m
 # 각 단어는 밑줄 문자로 구분됩니다.
 # my_variable_name = "John"
 
-
+# QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ #
+# Exercise
+# QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ #
 # Which is NOT a legal variable name?
+
 # my-var = 20       # Correct Answer!
 # my_var = 20
 # Myvar = 20
