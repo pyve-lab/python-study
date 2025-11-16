@@ -35,15 +35,15 @@ print(myvar); print(my_var); print(_my_var); print(myVar); print(MYVAR); print(m
 # 2myvar = "John"
 # my-var = "John"
 # my var = "John"
-# File "08_Python _Variable_Names.py", line 35
+# File "05_05_Variables_Names.py", line 35
 # 2myvar = "John"
 # ^
 # SyntaxError: invalid decimal literal
-# File "08_Python _Variable_Names.py", line 36
+# File "05_Variables_Names.py", line 36
 # my-var = "John"
 # ^^^^^^
 # SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
-# File "08_Python _Variable_Names.py", line 37
+# File "05_Variables_Names.py", line 37
 # my var = "John"
 # ^^^
 # SyntaxError: invalid syntax

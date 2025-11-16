@@ -31,7 +31,7 @@ if 5 > 2:
 # 구문 오류:
 # if 5 > 2:
 # print("Five is greater than two!")
-# File "03_Python_Syntax.py", line 30
+# File "02_Syntax.py", line 30
 # print("Five is greater than two!")
 # ^^^^^
 # IndentationError: expected an indented block after 'if' statement on line 29
@@ -53,7 +53,7 @@ if 5 > 2:
 #  if 5 > 2:
 #  print("Five is greater than two!")
 #     print("Five is greater than two!")
-#   File "03_Python_Syntax.py", line 50
+#   File "02_Syntax.py", line 50
 #     if 5 > 2:
 #              ^
 # IndentationError: unindent does not match any outer indentation level

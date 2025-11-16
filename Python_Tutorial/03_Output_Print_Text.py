@@ -42,7 +42,7 @@ print('This will also work!')
 
 # 예 (오류)
 # print(This will cause an error)
-# File "05_Python_Output_Print.py", line 38
+# File "03_Output_Print_Text.py", line 38
 # print(This will cause an error)
 # ^^^^^^^^^
 # SyntaxError: invalid syntax. Perhaps you forgot a comma?

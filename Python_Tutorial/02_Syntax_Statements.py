@@ -54,7 +54,7 @@ print("Hello"); print("How are you?"); print("Bye bye!")
 
 # 예 (오류)
 # print("Python is fun!") print("Really!")
-# File "04_Python_Statements.py", line 57
+# File "02_Python_Statements.py", line 57
 # print("Python is fun!") print("Really!")
 # ^^^^^
 # SyntaxError: invalid syntax
