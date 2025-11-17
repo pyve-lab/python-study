@@ -58,9 +58,9 @@ Python_Tutorial/
 | What is Python | 소개 | 25.11.13 | ✔️ |
 | Syntax | 들여쓰기 | 25.11.14 | ✔️ |
 | Comments | 주석 | 25.11.16 | ✔️ |
-| Variables | 변수 | | 🔄 |
-| Data Types | 자료형 | | ⏳ |
-| Numbers | 숫자형 | | ⏳ |
+| Variables | 변수 | 25.11.16 | ✔️ |
+| Data Types | 자료형 | 25.11.17 | ✔️ |
+| Numbers | 숫자형 | | 🔄 |
 | Strings | 문자열 | | ⏳ |
 | Booleans | 논리 | | ⏳ |
 | Operators | 연산자 | | ⏳ |
