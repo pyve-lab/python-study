@@ -77,27 +77,27 @@ python-study/
 ## 학습 진행 상황
 
 ### 시작하기 (`01-tutorial/01-getting-started/`)
-- [ ] Python HOME
+- [x] Python HOME
 - [x] Python Intro
-- [ ] Python Get Started
-- [ ] Python Syntax
-- [ ] Python Output
-- [ ] Python Comments
+- [x] Python Get Started
+- [x] Python Syntax
+- [x] Python Output
+- [x] Python Comments
 
 ### 변수/데이터 타입
-- [ ] Python Variables
-- [ ] Python Data Types
-- [ ] Python Numbers
-- [ ] Python Casting
-- [ ] Python Strings
-- [ ] Python Booleans
-- [ ] Python Operators
+- [x] Python Variables
+- [x] Python Data Types
+- [x] Python Numbers
+- [x] Python Casting
+- [x] Python Strings
+- [x] Python Booleans
+- [x] Python Operators
 
 ### 컬렉션 (자료 구조)
-- [ ] Python Lists
-- [ ] Python Tuples
-- [ ] Python Sets
-- [ ] Python Dictionaries
+- [x] Python Lists
+- [x] Python Tuples
+- [x] Python Sets
+- [x] Python Dictionaries
 
 ### 제어 구조
 - [ ] Python If...Else
