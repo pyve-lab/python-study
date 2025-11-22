@@ -6,6 +6,8 @@
 
 [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp) 기반
 
+> 현재는 **Python Tutorial** 섹션만 다루고 있으며, 향후 다른 섹션(Advanced, Exercises 등)을 추가할 수 있도록 구조화되어 있습니다.
+
 ### 1. 시작하기
 - [Python HOME](https://www.w3schools.com/python/default.asp)
 - [Python Intro](https://www.w3schools.com/python/python_intro.asp)
@@ -52,6 +54,20 @@
 - [Python User Input](https://www.w3schools.com/python/python_user_input.asp)
 - [Python VirtualEnv](https://www.w3schools.com/python/python_virtualenv.asp)
 
+## 프로젝트 구조
+
+```
+python-study/
+├── README.md
+├── template.ipynb
+└── 01-tutorial/              # Python Tutorial 섹션
+    ├── 01-getting-started/   # 시작하기
+    ├── 02-variables-datatypes/  # 변수/데이터 타입
+    ├── 03-collections/       # 컬렉션
+    ├── 04-control-structures/  # 제어 구조
+    └── 05-functions-advanced/  # 함수 및 고급 주제
+```
+
 ## 학습 방법
 
 각 주제에 대해 `template.ipynb`를 복사하여 주피터 노트북으로 학습 내용을 정리합니다.
@@ -60,9 +76,9 @@
 
 ## 학습 진행 상황
 
-### 시작하기
+### 시작하기 (`01-tutorial/01-getting-started/`)
 - [ ] Python HOME
-- [ ] Python Intro
+- [x] Python Intro
 - [ ] Python Get Started
 - [ ] Python Syntax
 - [ ] Python Output
