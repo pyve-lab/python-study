@@ -114,8 +114,8 @@ computer.ram.store()
 # QQQQQQQQQQQQQQQQQQ
 # Exercise
 # QQQQQQQQQQQQQQQQQQ
-# How do you make a property private in Python?
+# What is an inner class in Python?
 
-# Use a single underscore prefix: _property
-# Use a double underscore prefix: __property     # Correct Answer!
-# Use the private keyword
+# A class that inherits from another class
+# A class defined inside another class           # Correct Answer!
+# A class with private properties
