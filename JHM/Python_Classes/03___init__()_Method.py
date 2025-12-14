@@ -1,0 +1,111 @@
+####################################################################################
+# 파이썬 객체 지향 프로그래밍
+####################################################################################
+
+#######################################
+# __init__() 메서드
+#######################################
+# __init__()모든 클래스에는 클래스가 초기화될 때 항상 실행되는 내장 메서드가 있습니다.
+# 이 __init__()메서드는 객체 속성에 값을 할당하거나 객체를 생성할 때 필요한 작업을 수행하는 데 사용됩니다.
+
+# 예
+# Person이라는 클래스를 생성하고, 해당 __init__()메서드를 사용하여 이름과 나이 값을 할당하세요.
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Emil", 36)
+
+print(p1.name)
+print(p1.age)
+# Emil
+# 36
+# 참고: 이 __init__()메서드는 해당 클래스를 사용하여 새 객체를 생성할 때마다 자동으로 호출됩니다.
+
+# __init__() 함수를 사용하는 이유는 무엇인가요?
+# 이 __init__()방법을 사용하지 않으면 각 객체의 속성을 수동으로 설정해야 합니다.
+
+# 예
+# 클래스 생성 시 다음 내용을 제외합니다 __init__().
+class Person:
+  pass
+
+p1 = Person()
+p1.name = "Tobias"
+p1.age = 25
+
+print(p1.name)
+print(p1.age)
+# Tobias
+# 25
+
+# 사용하면 __init__()초기값을 가진 객체를 더 쉽게 만들 수 있습니다.
+
+# 예
+# 를 사용하면 __init__()객체를 생성할 때 초기값을 설정할 수 있습니다.
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Linus", 28)
+
+print(p1.name)
+print(p1.age)
+# Linus
+# 28
+
+#######################################
+# __init__()의 기본값
+#######################################
+# 메서드 의 매개변수에 기본값을 설정할 수도 있습니다 __init__().
+
+# 예
+# 나이 매개변수에 기본값을 설정합니다.
+class Person:
+  def __init__(self, name, age=18):
+    self.name = name
+    self.age = age
+
+p1 = Person("Emil")
+p2 = Person("Tobias", 25)
+
+print(p1.name, p1.age)
+print(p2.name, p2.age)
+# Emil 18
+# Tobias 25
+
+#######################################
+# 다중 매개변수
+#######################################
+# 이 __init__()메서드는 필요한 만큼의 매개변수를 가질 수 있습니다.
+
+# 예
+# 매개변수가 여러 개인 Person 클래스를 생성하세요.
+class Person:
+  def __init__(self, name, age, city, country):
+    self.name = name
+    self.age = age
+    self.city = city
+    self.country = country
+
+p1 = Person("Linus", 30, "Oslo", "Norway")
+
+print(p1.name)
+print(p1.age)
+print(p1.city)
+print(p1.country)
+# Linus
+# 30
+# Oslo
+# Norway
+
+# QQQQQQQQQQQQQQQQQQ
+# Exercise
+# QQQQQQQQQQQQQQQQQQ
+# What is the purpose of the __init__() method in Python classes?
+
+# To delete an object
+# To assign initial values to object properties   # Correct Answer!
+# To print object information
