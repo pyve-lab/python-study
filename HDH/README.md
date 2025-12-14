@@ -76,16 +76,17 @@
 
 ```
 python-study/
-├── README.md
-├── template.ipynb
-├── 01-tutorial/              # Python Tutorial 섹션
-│   ├── 01-getting-started/   # 시작하기
-│   ├── 02-variables-datatypes/  # 변수/데이터 타입
-│   ├── 03-collections/       # 컬렉션
-│   ├── 04-control-structures/  # 제어 구조
-│   └── 05-functions-advanced/  # 함수 및 고급 주제
-├── 02-classes/               # Python Classes 섹션
-└── 03-file-handling/         # File Handling 섹션
+└── HDH/                      # HDH 작업 폴더
+    ├── README.md
+    ├── template.ipynb
+    ├── 01-tutorial/              # Python Tutorial 섹션
+    │   ├── 01-getting-started/   # 시작하기
+    │   ├── 02-variables-datatypes/  # 변수/데이터 타입
+    │   ├── 03-collections/       # 컬렉션
+    │   ├── 04-control-structures/  # 제어 구조
+    │   └── 05-functions-advanced/  # 함수 및 고급 주제
+    ├── 02-classes/               # Python Classes 섹션
+    └── 03-file-handling/         # File Handling 섹션
 ```
 
 ## 학습 방법
@@ -129,33 +130,33 @@ python-study/
 - [x] Python Functions
 - [x] Python Range
 - [x] Python Arrays
-- [ ] Python Iterators
+- [x] Python Iterators
 - [x] Python Modules
 - [x] Python Dates
 - [x] Python Math
 - [x] Python JSON
 - [x] Python RegEx
-- [ ] Python PIP
+- [x] Python PIP
 - [x] Python Try...Except
 - [x] Python String Formatting
-- [ ] Python None
+- [x] Python None
 - [x] Python User Input
 - [x] Python VirtualEnv
 
 ### Python Classes (`02-classes/`)
-- [ ] Python OOP
-- [ ] Python Classes/Objects
-- [ ] Python __init__ Method
-- [ ] Python self Parameter
-- [ ] Python Class Properties
-- [ ] Python Class Methods
-- [ ] Python Inheritance
-- [ ] Python Polymorphism
-- [ ] Python Encapsulation
-- [ ] Python Inner Classes
+- [x] Python OOP
+- [x] Python Classes/Objects
+- [x] Python __init__ Method
+- [x] Python self Parameter
+- [x] Python Class Properties
+- [x] Python Class Methods
+- [x] Python Inheritance
+- [x] Python Polymorphism
+- [x] Python Encapsulation
+- [x] Python Inner Classes
 
 ### File Handling (`03-file-handling/`)
-- [ ] Python File Handling
-- [ ] Python Read Files
-- [ ] Python Write/Create Files
-- [ ] Python Delete Files
+- [x] Python File Handling
+- [x] Python Read Files
+- [x] Python Write/Create Files
+- [x] Python Delete Files
