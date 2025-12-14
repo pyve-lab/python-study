@@ -6,7 +6,7 @@
 
 [W3Schools Python Tutorial](https://www.w3schools.com/python/default.asp) 기반
 
-> 현재는 **Python Tutorial** 섹션만 다루고 있으며, 향후 다른 섹션(Advanced, Exercises 등)을 추가할 수 있도록 구조화되어 있습니다.
+> 현재는 **Python Tutorial**, **Python Classes**, **File Handling** 섹션을 다루고 있으며, 향후 다른 섹션(Advanced, Exercises 등)을 추가할 수 있도록 구조화되어 있습니다.
 
 ### 1. 시작하기
 - [Python HOME](https://www.w3schools.com/python/default.asp)
@@ -54,18 +54,38 @@
 - [Python User Input](https://www.w3schools.com/python/python_user_input.asp)
 - [Python VirtualEnv](https://www.w3schools.com/python/python_virtualenv.asp)
 
+### 6. Python Classes (객체 지향 프로그래밍)
+- [Python OOP](https://www.w3schools.com/python/python_oop.asp)
+- [Python Classes/Objects](https://www.w3schools.com/python/python_classes.asp)
+- [Python __init__ Method](https://www.w3schools.com/python/python_class_init.asp)
+- [Python self Parameter](https://www.w3schools.com/python/python_class_self.asp)
+- [Python Class Properties](https://www.w3schools.com/python/python_class_properties.asp)
+- [Python Class Methods](https://www.w3schools.com/python/python_class_methods.asp)
+- [Python Inheritance](https://www.w3schools.com/python/python_inheritance.asp)
+- [Python Polymorphism](https://www.w3schools.com/python/python_polymorphism.asp)
+- [Python Encapsulation](https://www.w3schools.com/python/python_encapsulation.asp)
+- [Python Inner Classes](https://www.w3schools.com/python/python_class_inner.asp)
+
+### 7. File Handling (파일 처리)
+- [Python File Handling](https://www.w3schools.com/python/python_file_handling.asp)
+- [Python Read Files](https://www.w3schools.com/python/python_file_open.asp)
+- [Python Write/Create Files](https://www.w3schools.com/python/python_file_write.asp)
+- [Python Delete Files](https://www.w3schools.com/python/python_file_remove.asp)
+
 ## 프로젝트 구조
 
 ```
 python-study/
 ├── README.md
 ├── template.ipynb
-└── 01-tutorial/              # Python Tutorial 섹션
-    ├── 01-getting-started/   # 시작하기
-    ├── 02-variables-datatypes/  # 변수/데이터 타입
-    ├── 03-collections/       # 컬렉션
-    ├── 04-control-structures/  # 제어 구조
-    └── 05-functions-advanced/  # 함수 및 고급 주제
+├── 01-tutorial/              # Python Tutorial 섹션
+│   ├── 01-getting-started/   # 시작하기
+│   ├── 02-variables-datatypes/  # 변수/데이터 타입
+│   ├── 03-collections/       # 컬렉션
+│   ├── 04-control-structures/  # 제어 구조
+│   └── 05-functions-advanced/  # 함수 및 고급 주제
+├── 02-classes/               # Python Classes 섹션
+└── 03-file-handling/         # File Handling 섹션
 ```
 
 ## 학습 방법
@@ -100,24 +120,42 @@ python-study/
 - [x] Python Dictionaries
 
 ### 제어 구조
-- [ ] Python If...Else
-- [ ] Python Match
-- [ ] Python While Loops
-- [ ] Python For Loops
+- [x] Python If...Else
+- [x] Python Match
+- [x] Python While Loops
+- [x] Python For Loops
 
 ### 함수 및 고급 주제
-- [ ] Python Functions
-- [ ] Python Range
-- [ ] Python Arrays
+- [x] Python Functions
+- [x] Python Range
+- [x] Python Arrays
 - [ ] Python Iterators
-- [ ] Python Modules
-- [ ] Python Dates
-- [ ] Python Math
-- [ ] Python JSON
-- [ ] Python RegEx
+- [x] Python Modules
+- [x] Python Dates
+- [x] Python Math
+- [x] Python JSON
+- [x] Python RegEx
 - [ ] Python PIP
-- [ ] Python Try...Except
-- [ ] Python String Formatting
+- [x] Python Try...Except
+- [x] Python String Formatting
 - [ ] Python None
-- [ ] Python User Input
-- [ ] Python VirtualEnv
+- [x] Python User Input
+- [x] Python VirtualEnv
+
+### Python Classes (`02-classes/`)
+- [ ] Python OOP
+- [ ] Python Classes/Objects
+- [ ] Python __init__ Method
+- [ ] Python self Parameter
+- [ ] Python Class Properties
+- [ ] Python Class Methods
+- [ ] Python Inheritance
+- [ ] Python Polymorphism
+- [ ] Python Encapsulation
+- [ ] Python Inner Classes
+
+### File Handling (`03-file-handling/`)
+- [ ] Python File Handling
+- [ ] Python Read Files
+- [ ] Python Write/Create Files
+- [ ] Python Delete Files
